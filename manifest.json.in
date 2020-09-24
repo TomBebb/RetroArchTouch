@@ -1,12 +1,12 @@
 {
-	"name": "zub.mirglesdemo",
-	"description": "Mir OpenGL ES demo",
+	"name": "retroarch-touch",
+	"description": "RetroArch port, providing fast emulators",
 	"architecture": "@CLICK_ARCH@",
-	"title": "MirGLESDemo",
+	"title": "RetroArch",
 	"hooks": {
-		"MirGLESDemo": {
-			"apparmor": "MirGLESDemo.apparmor",
-			"desktop": "MirGLESDemo.desktop"
+		"RetroArch": {
+			"apparmor": "RetroArch.apparmor",
+			"desktop": "RetroArch.desktop"
 		}
 	},
 	"version": "0.1",
